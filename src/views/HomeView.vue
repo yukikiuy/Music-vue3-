@@ -199,6 +199,8 @@ const playSong = (song) => {
       border-radius: 8px;
       overflow: hidden;
       margin-bottom: 8px;
+      margin-left: 4px;
+      margin-right: 4px;
 
       img {
         position: absolute;

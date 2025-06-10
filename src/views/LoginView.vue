@@ -251,7 +251,7 @@ const toggleForm = () => {
 .form {
   .form-group {
     margin-bottom: 20px;
-
+    display: flex;
     input {
       width: 100%;
       padding: 14px;

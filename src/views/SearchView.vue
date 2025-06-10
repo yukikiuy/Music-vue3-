@@ -36,7 +36,7 @@ const handleHotSearch = (keyword) => {
     <div class="search-content">
       <template v-if="searchResults.length === 0">
         <div class="hot-searches">
-          <h3 class="section-title">热门搜索</h3>
+          <h3 class="section-title">🔥热门搜索</h3>
           <div class="hot-searches-list">
             <span
               v-for="keyword in hotSearches"
@@ -75,11 +75,10 @@ const handleHotSearch = (keyword) => {
   position: relative;
   max-width: 600px;
   margin: 0 auto;
-
   .search-icon {
     position: absolute;
     left: 16px;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     font-size: 20px;
     color: #999;
@@ -87,6 +86,7 @@ const handleHotSearch = (keyword) => {
 
   input {
     width: 100%;
+    margin-top: 20px;
     padding: 16px 16px 16px 50px;
     border: none;
     border-radius: 24px;
